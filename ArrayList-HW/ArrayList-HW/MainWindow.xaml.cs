@@ -37,13 +37,17 @@ namespace ArrayList_HW
         {
             arrayList.Add(DataBox.Text);
             MessageBox.Show("Add : "+DataBox.Text+"\n"+" Completed");
+            DataBox.Text = "";
+
         }
 
- 
+
         private void RemoveButton_Click_1(object sender, RoutedEventArgs e)
         {
             arrayList.Remove(DataBox.Text);
             MessageBox.Show("Remove : " + DataBox.Text + "\n"+ " Completed");
+            DataBox.Text = "";
+
         }
 
 
